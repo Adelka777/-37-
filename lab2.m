@@ -14,3 +14,6 @@ k = k + 2;
 
 fprintf(fid, '%-5.0d\t%-#22.40f\t%-21.9f\n', (k+1)/2, y, s);
 end 
+
+
+fclose(fid); 
